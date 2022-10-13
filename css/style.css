@@ -1,0 +1,25 @@
+/* external css */
+/* elemen selector */
+body{
+   background-color: #e3c770;
+   font-family: Verdana;
+   /* ini komentar di css */
+   /* text-align: center; */
+}
+
+.txt-center{
+    text-align: center;
+}
+.bg-primary{
+    background-color: darkorange;
+    border-radius: 15px;
+    /*border-radius: 15px; */
+    /* top-left | top-right| bottom-right | bottom-left*/
+    border-radius: 0px 0px 15px 15px;
+}
+.pb-1 {
+    padding-bottom: 10px;
+}
+.mb-5{
+    
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id+"home" class="txt-center">
+        <h1>Selamat Datang Menggunakan CSS New</h1>
+        <font color="black">
+            <marqueen direction = "right">--Selamat mencoba pengunaan CSS--</marqueen>
+        </font>
+    </div>
+</body>
+
+<body>
+    <div id="home">
+        <!--<h1> sd <h6> adalah heading-->
+        <!--contoh style color-->
+        <h1 style="color: rebeccapurple;">Kota Palembang</h1>
+        <!--<P> adalah paragraf-->
+        <p>Selamat Datang diKota Palembang</p>
+        <hr>
+    </div>
+    <div>
+        <a href="belajarcss.html"> belajar css </a>
+        <a href="#home">Beranda</a>
+        <a href="Profil.html"> Profil</a>
+        <a href="https://palembang.go.id/" target="_blank">Web palembang.go.id</a>
+    </div>
+    <div><img src="/image/ame.jpg" alt="anda kurang beruntung" width="50%">
+        <img src="/image/tes1.jpg" alt="anda kurang beruntung" width="20%"></div>
+    </div>
+    <div>
+        <h2>Kecamatan</h2>
+        <p>Berikut daftar nama kecamatan di kota Palembang:</p>
+        <table border="1" widhth="100%">
+            <thead>
+                <tr>
+                    <!--kolom ke 1-->
+                    <th>No</th>
+                    <!--kolom ke 2-->
+                    <th>Nama Kecamatan</th>
+                    <!--kolom ke 3-->
+                    <th>Jumlah Kelurahan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--baris ke 1-->
+                    <td>1</td>
+                    <td>Seberang ulu 1</td>
+                    <td>10</td>
+                </tr>
+                <!--baris ke 2-->
+                <tr>
+                    <td>2</td>
+                    <td>Seberang ulu 2</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--colspan-->
+        <table border="1">
+            <!--baris ke 1-->
+            <tr>
+                <td colspan="2">JK</td>
+            </tr>
+            <!--baris ke 2-->
+            <tr>
+                <td>Laki-laki</td>
+                <td>Perempuan</td>
+            </tr>
+        </table>
+        <!--rowspan-->
+        <table border="1">
+            <tr>
+                <td rowspan="2">JK</td>
+                <td>Laki-laki</td>
+            </tr>
+            <tr>
+                <td>Perempuan</td>
+            </tr>
+        </table>
+        <table border="1">
+            <thead>
+                <tr>
+                    <!--kolom ke 1-->
+                    <th rowspan="2">No</th>
+                    <!--kolom ke 2-->
+                    <th rowspan="2">Nama Kecamatan</th>
+                    <!--kolom ke 3-->
+                    <th rowspan="2">Jumlah Kelurahan</th>
+                    <!--kolom ke 4-->
+                    <th colspan="2">jumlah penduduk</th>
+
+
+                </tr>
+                <tr>
+                    <th>Laki</th>
+                    <th>Perempuan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--baris ke 1-->
+                    <td>1</td>
+                    <td>Seberang ulu 1</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>tes1</td>
+
+                </tr>
+                <!--baris ke 2-->
+                <tr>
+                    <td>2</td>
+                    <td>Seberang ulu 2</td>
+                    <td>12</td>
+                    <td>100</td>
+                    <td>tes</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <!--contoh text input -->
+        <from action="https://www.example.com/subscribe.php" method="GET">
+            <p>Username: <input type="text" name="username" size="15" maxlength="30"></p>
+            <!--contoh password input-->
+            <p>Password: <input type="password" name="password" size="15" maxlength="30"></p>
+            <!--contoh submit button-->
+            <p>Input your email here:</p>
+            <input type="email" name="email" /><input type="submit" value="Input" />
+            <br />
+            <br />
+            <!--conoth date input-->
+            <label for="depart">departure date:</label>
+            <input type="date" name="depart">
+            <br />
+            <p>Upload your Foto in jpg,png,jpeg format </p>
+            <input type="file" name="photo" />
+        </from>
+        <p>_______________________________________________</p>
+    </div>
+    <div>
+        <!--contoh textarea-->
+        <p>tempat comment</p>
+        <textarea name="comments" cols="20" rows="4"> enter your comment...</textarea>
+    </div>
+    <div>
+        <!--contoh select option-->
+        <p>Pilih perangkat yang digunakan:</p>
+        <select name="device">
+            <option value="android">android</option>
+            <option value="ios">ios</option>
+            <option value="laptop">laptop</option>
+        </select>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <!--kolom 1-->
+                    <th align="center">No</th>
+                    <!--kolom 2-->
+                    <th align="center">Polsek</th>
+                    <!--kolom 3-->
+                    <th align="center">Kecematan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--baris 1-->
+                    <td align="center">1</td>
+                    <td align="center">sulawesi</td>
+                    <td align="center" rowspan="5">idem</td>
+                </tr>
+                <tr>
+                    <!--baris 2-->
+                    <td align="center">2</td>
+                    <td align="center">kalidoni</td>
+                </tr>
+                <tr>
+                    <!--baris 3-->
+                    <td align="center">3</td>
+                    <td align="center">IT 1</td>
+                </tr>
+                <tr>
+                    <!--baris 4-->
+                    <td align="center">4</td>
+                    <td align="center">ID 1</td>
+                </tr>
+                <tr>
+                    <!--baris 5-->
+                    <td align="center">5</td>
+                    <td align="center">IT 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

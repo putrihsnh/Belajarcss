@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/images/index.jpg" />
+</head>
+
+<body>
+    <div>
+        <h2>Objek Wisata</h2>
+        <!--order list-->
+        <ol>
+            <li>Jembatan Ampera </li>
+            <li>Benteng Kuto Besak</li>
+            <li>Jakabaring Sport City</li>
+        </ol>
+        <h2> Makanan Khas</h2>
+        <ol type="1">
+            <li>Pempek</li>
+            <li>Tekwan</li>
+            <li>Mie Celor</li>
+        </ol>
+        <!--Unorder List-->
+        <h2>Fasilitas Kesehatan</h2>
+        <ul>
+            <li>RS.Moh.Hoesin</li>
+            <li>RS.Sriwijaya</li>
+        </ul>
+        <h2>Mall</h2>
+        <ul type="Square">
+            <li>Palembang Indah Mall</li>
+            <li>Palembang Square</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Daftar Walikota Palembang:</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <!--kolom ke-1-->
+                    <th width="10%">No</th>
+                    <!--kolom ke-2-->
+                    <th>Nama Walikota</th>
+                    <!--kolom ke-3-->
+                    <th width="30%">Foto</th>
+                    <!--kolom ke-4-->
+                    <th width="30%">Periode</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">Hermanderu</td>
+                    <td align="center">
+                        <img src="images/Hermanderu.jpg" alt="Hermanderu" width="30%">
+                    </td>
+                    <td align="center">2005-2015</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td align="center">Harnojoyo</td>
+                    <td align="center">
+                        <img src="images/harnojoyo.jpg" alt="Harnojoyo" width="30%">
+                    </td>
+                    <td align="center">2015-2018</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Formulir Pendaftaran Walikota Palembang</h2>
+        <form action="daftar.html" method="post">
+            <div>
+                Nama Lengkap
+                <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Enter nama lengkap">
+            </div>
+            <div>
+                Tempat Lahir <br>
+                <input type="text " name="tempat_lahir" id="tempat_lahir">
+            </div>
+            <div>
+                Tempat Lahir <br>
+                <input type="date" name="tempat_lahir" id="tempat_lahir">
+            </div>
+            <div>
+                Jenis Kelamin <br>
+                <input type="radio" name="jk" id="jk1" value="L"> Laki-laki
+                <input type="radio" name="jk" id="jk1" value="P"> Perempuan
+            </div>
+            <div>
+                Alamat <br>
+                <textarea name="alamat" id="alamat" cols="30"></textarea>
+            </div>
+            <div>
+                Partai Pengusung <br>
+                <select name="partai" id="partai">
+                    <option value="PIM">Partai Indonesia Maju</option>
+                    <option value="PILSM">Partai Indonesia Selangkah Lebih Maju</option>
+                    <option value="UMDP">Univertas Multi Data Palembang</option>
+                </select>
+            </div>
+            <button type="submit">Daftar</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
